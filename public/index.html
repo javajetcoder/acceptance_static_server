@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>javajet flight simulator control center</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/countdowntime/flipclock.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap" rel="stylesheet">
+	<meta name="description" content="Discover JavaJet Command Center software to control  steering wheels, joysticks, gaming controllers, flight simulator, yokes, pedals, throttle, buttons, switches, potentiometers.
+	 For PS4, PC or XBOX One, javajet flight simulator control center">
+</head>
+
+<body>
+
+
+	<div class="bg-img1 size1 overlay1 p-b-35 p-l-15 p-r-15" style="background-image: url('images/bg01.webp');">
+		<div class="flex-col-c p-t-160 p-b-215 respon1">
+			<div class="wrappic1 txt-center">
+				<a title="JavaJet Command Center" href="#">
+					<span class="jjcc-logo white">JavaJet</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+						class="jjcc-logo grey">Command</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+						class="jjcc-logo grey">Center</span>
+				</a>
+			</div>
+
+			<h3 class="l1-txt1 txt-center p-t-30 p-b-100">
+				flight simulator controls software
+			</h3>
+
+			<div class="flex-w flex-c-m p-b-35">
+			<span title="Release date 4th Quarter 2023" class="l1-txt1-small releasing">Releasing</span>
+			<div class="cd100"></div>
+			</div>
+
+			<div class="flex-w flex-c-m p-b-35">
+			<span class="l1-txt1-small">For </span>
+			<a title="Microsoft Flight Simulator web site" href="https://www.flightsimulator.com"><img title="Microsoft Flight Simulator (2020)" src="images/798px-Microsoft_Flight_Simulator_(2020)_logo.webp"/></a>
+			<a class="hidden-link" title="Microsoft Flight Simulator Variables" href="https://docs.flightsimulator.com/html/Programming_Tools/SimVars/Simulation_Variables.htm">Sim Vars</a>
+			<a class="hidden-link" title="Microsoft Flight Simulator Event IDs" href="https://docs.flightsimulator.com/html/Programming_Tools/Event_IDs/Event_IDs.htm">Sim Events</a>
+			</div>
+			<div class="compatible txt-center" class="flex-w flex-c-m p-b-35">
+				<span title="Compatible with Arduino, Rasberry Pi and Espressif" class="l1-txt1-small">Compatible with </span>
+				<a title="Arduino web site" href="https://www.arduino.cc"><img style="width:300px;" title="Compatible with Arduino" src="images/Arduino_Logo.webp"/></a>
+				<a title="Espressif web site" href="https://www.espressif.com/"><img style="width:400px; "title="Compatible with Espressif" src="images/Espressif_Logo.webp"/></a>
+				<a title="Rasberry Pi web site" href="https://www.raspberrypi.com"><img style="width:200px;"" title="Compatible with Raspberry Pi" src="images/Raspberry_Pi_Logo.webp"/></a>
+			</div>	
+		</div>
+		<!--  -->
+		<div class="flex-w flex-c-m p-b-35">
+			<a href="https://www.facebook.com/profile.php?id=61550612481962&is_tour_dismissed=true"
+				class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+				<i class="fa fa-facebook"></i>
+			</a>
+
+			<a href="https://www.instagram.com/javajetcommandcenter/"
+				class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+				<i class="fa fa-instagram"></i>
+			</a>
+
+			<a href="https://twitter.com/JavajetC69802" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+				<i class="fa fa-twitter"></i>
+			</a>
+
+			<a href="https://www.youtube.com/channel/UCqPpPlZSm3LmCuaavA3y9ew"
+				class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+				<i class="fa fa-youtube-play"></i>
+			</a>
+		</div>
+	
+	</div>
+
+
+
+
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/flipclock.min.js"></script>
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		function daysIntoYear(date) {
+			return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
+		}
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: (228 + 90) - daysIntoYear(new Date()),
+			endtimeHours: 18,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: ""
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+
+
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script>
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
