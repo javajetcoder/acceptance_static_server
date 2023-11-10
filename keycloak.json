@@ -1,0 +1,8 @@
+{
+    "realm": "jjcc",
+    "auth-server-url": "http://10.1.1.200:8080/auth",
+    "ssl-required": "external",
+    "resource": "jjcc",
+    "public-client": true,
+    "confidential-port": 0
+  }
