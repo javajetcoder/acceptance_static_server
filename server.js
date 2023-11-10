@@ -22,8 +22,13 @@ app.use(keycloak.middleware());
 
 app.use('/static', express.static(path.join(__dirname, 'public')))
 
-app.get('/', keycloak.protect(), function(req, res) {
-  res.redirect('static/index.html');
-});
+ app.get('/', function(req, res) {
+   res.redirect('static/index.html');
+ });
+
+
+// app.get('/', keycloak.protect(), function(req, res) {
+//   res.redirect('static/index.html');
+// });
 
 app.listen(port, () => console.log(`Express app running on port ${port}!`));
